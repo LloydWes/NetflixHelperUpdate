@@ -85,7 +85,7 @@ function mainEx() {
 
 		//////////hide header video animation
 		const headerVideoSound = document.querySelector('video');
-		const headerVideoContainer = document.querySelector('span.volatile-billboard-animations-container');
+		const headerVideoContainer = document.querySelector('div.volatile-billboard-animations-container');
 
 		if (headerCheckBoxStatus) {
 			if (headerVideoContainer) {
